@@ -1,4 +1,4 @@
-package com.example.job4j_url_shortcut;
+package com.example.job4j_url_shortcut.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,5 +9,4 @@ class Job4jUrlShortcutApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
