@@ -6,6 +6,8 @@ import com.example.job4j_url_shortcut.dto.UrlShortDto;
 import com.example.job4j_url_shortcut.dto.UrlStatDto;
 import com.example.job4j_url_shortcut.model.Site;
 import com.example.job4j_url_shortcut.model.Url;
+import com.example.job4j_url_shortcut.service.SiteService;
+import com.example.job4j_url_shortcut.service.UrlService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hamcrest.core.Is;
 import org.junit.jupiter.api.Test;

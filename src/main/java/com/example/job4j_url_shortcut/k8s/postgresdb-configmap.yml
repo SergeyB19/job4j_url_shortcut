@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: postgresdb-configmap
 data:
-  database_url: jdbc:postgresql://postgresdb-service/url_shortcut
-  postgres-db: url_shortcut
+  database_url: "jdbc:postgresql://postgresdb-service/url_shortcut"
+  postgres-db: "url_shortcut"
