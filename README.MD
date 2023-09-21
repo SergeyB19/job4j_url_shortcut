@@ -42,7 +42,7 @@
 }`
 где ключу *site* соотвтествует имя регистрируемого сайта
 
-![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_1.png)
+![img.png](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_1.png)
 
 В ответ придет json со сформированным логином и паролем, а так же флагом, что данный пользователь 
 еще не был зарегестрирован:
@@ -60,7 +60,7 @@
 
 содержащем  JSON с ранее полученными логин/паролем:
 
-![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_4.png)
+![img.png](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_4.png)
 
 В ответе под ключем *Authorization* будет распологаться [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token) токен следующего вида:
 
@@ -83,7 +83,7 @@
 
 В ответе будет JSON содержащий укороченную ссылку:
 
-![](java/com/example/job4j_url_shortcut/image/img_6.png)
+![img.png](java/com/example/job4j_url_shortcut/image/img_6.png)
 
 Для получения полной версси сылки достаточно послать запрос (без аторизации):
 
@@ -99,6 +99,6 @@
 Для получения статистики требуется наличие авторизационного токена 
 в заголовках запроса. Ответ представляет собой массив JSON:
 
-![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_7.png)
+![img.png](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_7.png)
 
 ***
