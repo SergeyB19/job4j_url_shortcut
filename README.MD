@@ -42,18 +42,17 @@
 }`
 где ключу *site* соотвтествует имя регистрируемого сайта
 
-![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut
-/image/img_1.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_1.png)
 
 В ответ придет json со сформированным логином и паролем, а так же флагом, что данный пользователь 
 еще не был зарегестрирован:
 
-![](java/com/example/job4j_url_shortcut/image/img_2.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_2.png)
 
 При повторном отправлении запроса с тем же ключем будут высланы ранее
 сформированные *login/password*:
 
-![img.png](java/com/example/job4j_url_shortcut/image/img_3.png)
+![img.png](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_3.png)
 
 На следующем этапе требуется выполнить аутентификацию с помощью запроса:
 
@@ -61,7 +60,7 @@
 
 содержащем  JSON с ранее полученными логин/паролем:
 
-![](java/com/example/job4j_url_shortcut/image/img_4.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_4.png)
 
 В ответе под ключем *Authorization* будет распологаться [JWT](https://ru.wikipedia.org/wiki/JSON_Web_Token) токен следующего вида:
 
@@ -80,7 +79,7 @@
 где под ключем _url_ указывается укорачиваемая ссылка. Так же в заголовках запроса
 должен присутствовать заголовок _Authorization_ со значением, полученным на этапе
 аутентификации:
-![](java/com/example/job4j_url_shortcut/image/img.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img.png)
 
 В ответе будет JSON содержащий укороченную ссылку:
 
@@ -100,6 +99,6 @@
 Для получения статистики требуется наличие авторизационного токена 
 в заголовках запроса. Ответ представляет собой массив JSON:
 
-![](java/com/example/job4j_url_shortcut/image/img_7.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut/image/img_7.png)
 
 ***
