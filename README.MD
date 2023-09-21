@@ -42,7 +42,8 @@
 }`
 где ключу *site* соотвтествует имя регистрируемого сайта
 
-![](java/com/example/job4j_url_shortcut/image/img_1.png)
+![](job4j_url_shortcut/src/main/java/com/example/job4j_url_shortcut
+/image/img_1.png)
 
 В ответ придет json со сформированным логином и паролем, а так же флагом, что данный пользователь 
 еще не был зарегестрирован:
