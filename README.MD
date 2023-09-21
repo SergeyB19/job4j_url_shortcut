@@ -102,6 +102,3 @@
 ![](image/img_7.png)
 
 ***
-**Контакты**
-
-email : geraldik1986@gmail.com
